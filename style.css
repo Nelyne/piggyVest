@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border;
+}
+
 html {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 24px;
@@ -6,8 +12,7 @@ html {
 }
 
 body {
-    margin: 1px;
-    padding: 0;
+    position: relative;
     background-color: #ADD8E6;
     
 }
@@ -20,10 +25,11 @@ body {
 }
 
 .SignUp-form{
-    width: 15rem;
+    min-width: 100px;
+    max-width: 400px;
     background-color: #fff;
-    margin: 2px auto 2px ;
-    padding: 20px 40px 48px;
+    margin: 0 auto;
+    padding: 50px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -77,21 +83,23 @@ label{
      border-radius: 4px;
      padding: 10px ;
      margin: 10px 10px;
-     width: 80%;
+     width: 85%;
      border-style: none;
      background: #EDF2F7;
      overflow: scroll;
+    
      
      
 }
 
 select {
     padding: 20px;
-    width: 85%;
+    width: 90%;
     border-radius: 4px;
-    background-color: #EF2F7;
+    background-color: #EDF2F7;
     border-style:none;
     overflow: scroll;
+    
     
 }
 
@@ -106,7 +114,7 @@ button{
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     border-style: none;
-    width: 85%;
+    width: 90%;
     margin-top: 20px;
     margin-left: 15px;
 }
